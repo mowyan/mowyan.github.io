@@ -71,3 +71,15 @@ footer{
   padding: 60px 0;
   color: #aaa;
 }
+
+/* animation */
+.animate {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity .3s,transform .3s;
+}
+
+.animate.appear {
+  opacity: 1;
+  transform: none;
+}
